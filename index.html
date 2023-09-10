@@ -4,13 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes Title</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/chicken-fried-steak.html">The Best Chicken Fried Steak</a></li>
-        <li><a href="recipes/pan-seared-steak.html">Pan Seared Steak</a></li>
-        <li><a href="recipes/wagyu-gunkan-sushi.html">Wagyu Gunkan Sushi</a></li>
-    </ul>
+    <div class="wrapper"> 
+        <div class="nav">
+            <h1>Laura's Odin Recipes</h1>
+            <ul class="navLinks">
+                <li><a href="recipes/chicken-fried-steak.html">Chicken Fried Steak</a></li>
+                <li><a href="recipes/pan-seared-steak.html">Pan Seared Steak</a></li>
+                <li><a href="recipes/wagyu-gunkan-sushi.html">Wagyu Gunkan Sushi</a></li>
+            </ul>
+        </div>
+        <div class="recipeImages">
+                <a class="linkItem" href="recipes/chicken-fried-steak.html"><img class="items" src="recipes/chicken-fried-steak.png" alt="chicken-fried-steak">
+                    <span class="text-wrapper"><span class="name">Chicken Fried Steak</span><span class="title">Recipe</span></span></a>
+                <a class="linkItem" href="recipes/pan-seared-steak.html"><img class="items" src="recipes/pan-seared-steak.jpg" alt="pan-seared-steak">
+                    <span class="text-wrapper"><span class="name">Pan Seared Steak</span><span class="title">Recipe</span></span></a>
+                <a class="linkItem" href="recipes/wagyu-gunkan-sushi.html"><img class="items" src="recipes/wagyu.png" alt="wagyu">
+                    <span class="text-wrapper"><span class="name">Wagyu Gunkan Sushi</span><span class="title">Recipe</span></span></a>
+        </div>
+        <div class="footer">
+            By Laura Streit for the Odin Project Curriculum
+        </div>
+    </div>
 </body>
 </html>
